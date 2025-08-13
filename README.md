@@ -9,8 +9,8 @@ The dataset includes metadata about movies and TV shows, allowing insights into 
 ## 📊 Key Insights
 
 ### 1. Content Type Distribution
-- **Movies** dominate the platform with **6,130 titles (69.61%)**.
-- **TV Shows** account for **2,676 titles (30.39%)**.
+- **Movies** dominate the platform with **6,130 titles.
+- **TV Shows** account for **2,676 titles.
 
 ### 2. Geographic Spread
 - The **United States** has the largest Netflix library (~2,818 titles), followed by **India, the UK, and Canada**.
