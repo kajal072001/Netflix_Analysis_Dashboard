@@ -1,80 +1,74 @@
-# Netflix Content Analysis Dashboard
+# 🎬 Netflix Content Analysis Dashboard
+
+An interactive Tableau dashboard analyzing *Netflix’s global content library* by type, genre, country, release year, and ratings.  
+The analysis reveals content trends, geographic spread, and audience targeting insights.
+
+---
+
+## 🖼 Dashboard Preview
+![Netflix Dashboard](netflix_dashboard.png)
+
+---
 
 ## 📌 Project Overview
-This Tableau dashboard provides an in-depth analysis of Netflix’s global content library, including **distribution by type, genre, country, release year, and ratings**.  
-The dataset includes metadata about movies and TV shows, allowing insights into content trends, geographic spread, and audience targeting.
+This dashboard uses Netflix metadata to visualize:
+- Content type distribution (*Movies* vs *TV Shows*)
+- Genre popularity
+- Country-wise availability
+- Growth trends over the years
+- Audience rating patterns
+
+Built in *Tableau* using data from the official Netflix dataset.
 
 ---
 
 ## 📊 Key Insights
 
-### 1. Content Type Distribution
-- **Movies** dominate the platform with **6,130 titles.
-- **TV Shows** account for **2,676 titles.
+### 1) Content Type Distribution
+- *Movies*: 6,130 titles  
+- *TV Shows*: 2,676 titles  
 
-### 2. Geographic Spread
-- The **United States** has the largest Netflix library (~2,818 titles), followed by **India, the UK, and Canada**.
-- Content availability varies significantly by country due to licensing.
+### 2) Geographic Spread
+- *United States* has the largest library (~2,818 titles), followed by *India, **UK, and **Canada*.  
+- Availability varies by country due to licensing.
 
-### 3. Top Genres
-- **Documentaries** – 359 titles  
-- **Dramas, International Movies** – 362 titles  
-- **Stand-Up Comedy** – 334 titles  
-- **Children & Family Movies** appear frequently, showing strong family content offerings.
+### 3) Top Genres
+- *Documentaries* – 359 titles  
+- *Dramas, International Movies* – 362 titles  
+- *Stand-Up Comedy* – 334 titles  
+- *Children & Family Movies* are frequent, indicating strong family content.
 
-### 4. Content Growth Over Time
-- Sharp growth in both movies and TV shows between **2015–2019**.
-- Recent years show a slight decline, possibly due to market saturation or a focus on quality over quantity.
+### 4) Content Growth Over Time
+- Sharp rise between *2015–2019* for both Movies & TV Shows.  
+- Slight decline in recent years — possibly market saturation or quality focus.
 
-### 5. Ratings Distribution
-- Majority of titles rated:
-  - **TV-MA** – 3,207 titles (Mature Audience)
-  - **TV-14** – 2,159 titles (Teens)
-  - **TV-PG** – 683 titles (Parental Guidance)
-- Content is heavily skewed toward **adult and teen audiences**.
-
----
-
-## 🗺️ Dashboard Features
-1. **Type & Title Filters** – Select specific content and view details.
-2. **Geographic Heatmap** – Shows content distribution by country.
-3. **Bubble Chart** – Compares movies vs. TV show proportions.
-4. **Top 10 Genres Bar Chart** – Highlights the most common genres.
-5. **Time Series Chart** – Tracks content growth by year.
-6. **Ratings Chart** – Shows audience rating distribution.
+### 5) Ratings Distribution
+- *TV-MA*: 3,207 titles (Mature Audience)  
+- *TV-14*: 2,159 titles (Teens)  
+- *TV-PG*: 683 titles (Parental Guidance)  
+➡ Skewed toward *adult and teen audiences*.
 
 ---
 
-## 📂 Files
-- **Netflix_Dashboard.twbx** – Tableau workbook file (packaged).
-- **README.md** – Project documentation.
-- **Dataset** – Netflix content metadata (CSV/Excel).
+## 🗺 Dashboard Features
+- *Filters* for content type, title, country, and genre
+- *Global heatmap* of titles by country
+- *Top genres bar chart*
+- *Movies vs TV Shows bubble chart*
+- *Yearly trend line chart*
+- *Ratings distribution chart*
 
 ---
 
-## 🛠️ Tools Used
-- **Tableau Public** – For visualization and dashboard creation.
-- **Excel / CSV** – For data preprocessing.
-- **Mapbox** – For geographic visualization.
+## 📂 Files in This Repository
+- Netflix_Dashboard.twbx → Tableau packaged workbook  
+- netflix_titles.csv → Dataset used  
+- assets/netflix_dashboard.png → Dashboard preview image  
+- README.md → Documentation (this file)
 
 ---
 
 ## 🚀 How to Use
-1. Open the `.twbx` file in **Tableau Desktop** or **Tableau Public**.
-2. Interact with filters for content type, country, and genre.
-3. Hover over charts for additional details.
-4. Use the dashboard to explore content trends and patterns.
-
----
-
-## 📈 Recommendations
-- Increase **regional content variety** in countries with smaller catalogs.
-- Expand **family-friendly categories** to attract a broader audience.
-- Balance content ratings by introducing more **PG/PG-13 titles** for wider appeal.
-- Continue investment in **documentaries, dramas, and stand-up comedy**, as they are strong performers.
-
----
-
-## 📬 Author
-**Kajal Kewat**  
-Data Analyst | Tableau Developer  
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/your-username/netflix-content-analysis.git 
