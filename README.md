@@ -6,7 +6,7 @@ The analysis reveals content trends, geographic spread, and audience targeting i
 ---
 
 ## 🖼 Dashboard Preview
-![Netflix Dashboard](netflix_dashboard.png)
+![Netflix Dashboard](Netflix_Dashboard.png)
 
 ---
 
